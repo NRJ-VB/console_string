@@ -13,5 +13,19 @@
             Console.WriteLine("You iz fail !!!")
         End If
         Console.ReadKey()
+        'Nested Ifelse Statements
+        Dim x = 1, y = 11, z = 9
+        If (x > y) Then
+            If (x > z) Then
+                MsgBox("X is greatest")
+            Else
+                MsgBox("Z is greatest")
+            End If
+        ElseIf (y > z) Then
+            MsgBox("Y is greatest")
+        Else
+            MsgBox("Z is greatest")
+        End If
+        Console.ReadKey()
     End Sub
 End Module
