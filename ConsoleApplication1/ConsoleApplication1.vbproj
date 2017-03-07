@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{8E8252B7-3C41-4081-A08C-101E390D8393}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>ConsoleApplication1.Loops</StartupObject>
+    <StartupObject>ConsoleApplication1.Excptn</StartupObject>
     <RootNamespace>ConsoleApplication1</RootNamespace>
     <AssemblyName>ConsoleApplication1</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -98,6 +98,8 @@
   <ItemGroup>
     <Compile Include="Cases.vb" />
     <Compile Include="ConditionalStatements.vb" />
+    <Compile Include="Excptn.vb" />
+    <Compile Include="Loopcontrols.vb" />
     <Compile Include="Loops.vb" />
     <Compile Include="Rectangle.vb" />
     <Compile Include="String.vb" />
@@ -117,6 +119,7 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
     <Compile Include="String2.vb" />
+    <Compile Include="SwapNum.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">

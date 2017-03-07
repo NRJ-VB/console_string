@@ -31,7 +31,5 @@
             Console.WriteLine(myvalue)
         Next
         Console.ReadKey()
-
-
     End Sub
 End Module
