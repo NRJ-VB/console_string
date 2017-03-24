@@ -1,4 +1,4 @@
-﻿Module Array
+﻿Module Array1a
     Sub main()
 
         Dim roll(6) As Integer
